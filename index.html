@@ -164,11 +164,13 @@
                         </div>
                     </div>
                     <form class="form" method="POST" action="send_email.php">
-                        <input type="text" id="name" name="name" required placeholder="Name">
-                        <div class="email-input-wrapper">
-                            <input type="email" id="email" name="email" required placeholder="Email" onfocusout="validateEmail()">
-                            <div class="email-input-image-wrapper">
-                                <img src="images/main-page/error-icon.svg" alt="">
+                        <div class="name-email-wrapper">
+                            <input type="text" id="name" name="name" required placeholder="Name">
+                            <div class="email-input-wrapper">
+                                <input type="email" id="email" name="email" required placeholder="Email" onfocusout="validateEmail()">
+                                <div class="email-input-image-wrapper">
+                                    <img src="images/main-page/error-icon.svg" alt="">
+                                </div>
                             </div>
                         </div>
                         <div class="invalid-email-text">Invalid email format</div>
