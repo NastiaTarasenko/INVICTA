@@ -4,8 +4,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $userEmail = $_POST['email'];
     $userMessage = $_POST['message'];
 
-    // $toMail = "invicta.itco@gmail.com";
-    $toMail = "nastia.tarasenko993@gmail.com";
+    $toMail = "invicta.itco@gmail.com";
     $subject = 'Нове повідомлення з форми зв\'язку';
     $body = "Ім'я: $userName \r\n Email:  $userEmail \r\n Повідомлення: \r\n $userMessage";
     if (empty($userName)) {
