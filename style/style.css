@@ -310,7 +310,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 200px;
+    min-height: 180px;
 }
 .hamburger-menu {
     cursor: pointer;
@@ -318,17 +318,17 @@ a {
 /* header responsive */
 @media(max-width: 1700px) {
     .header-container {
-        min-height: 180px;
+        min-height: 160px;
     }
 }
 @media (max-width: 1440px) {
     .header-container {
-        min-height: 150px;
+        min-height: 140px;
     }
 }
-@media (max-width: 1140px) {
+@media (max-width: 1300px) {
     .header-container {
-        min-height: 140px;
+        min-height: 120px;
     }
     .header-logo {
         width: 135px;
@@ -1919,6 +1919,7 @@ input[type="submit"] {
     text-transform: none;
     transition: padding ease-in-out 0.4s;
     border: 1px solid #FCFCFC;
+    z-index: 2;
 }
 .send-message-wrapper svg {
     width: 12px;
@@ -1928,21 +1929,20 @@ input[type="submit"] {
     right: 46px;
     transition: right ease-in-out 0.4s;
     stroke: #FCFCFC;
+    z-index: 1;
 }
 input[type="submit"]:enabled:not(:active):hover {
     padding: 16px 45.5px 17px 75.5px;
-    transform: scale(1.1);
 }
 input[type="submit"]:enabled:not(:active):hover ~svg {
-    right: 240.5px;
+    right: 230.5px;
 }
 input[type="submit"]:enabled:active {
     padding: 16px 45.5px 17px 75.5px;
     border: 1px solid #89CEEB;
-    transform: scale(1.1);
 }
 input[type="submit"]:enabled:active ~svg {
-    right: 240.5px;
+    right: 230.5px;
 }
 input[type="submit"]:disabled {
     color: #878787;
@@ -2036,13 +2036,13 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         padding: 14px 40px 14px 65px;
     }
     input[type="submit"]:enabled:not(:active):hover ~svg {
-        right: 220px;
+        right: 214px;
     }
     input[type="submit"]:enabled:active {
         padding: 14px 40px 14px 65px;
     }
     input[type="submit"]:enabled:active ~svg {
-        right: 220px;
+        right: 214px;
     }
     .footer-icons {
         margin-top: 170px;
@@ -2106,13 +2106,13 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         padding: 12px 35px 12px 55px;
     }
     input[type="submit"]:enabled:not(:active):hover ~svg {
-        right: 195px;
+        right: 190px;
     }
     input[type="submit"]:enabled:active {
         padding: 12px 35px 12px 55px;
     }
     input[type="submit"]:enabled:active ~svg {
-        right: 195px;
+        right: 190px;
     }
     .intr {
         margin-top: 124px;
@@ -2230,13 +2230,13 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         padding: 10px 30px 10px 48px;
     }
     input[type="submit"]:enabled:not(:active):hover ~svg {
-        right: 173px;
+        right: 165px;
     }
     input[type="submit"]:enabled:active {
         padding: 10px 30px 10px 48px;
     }
     input[type="submit"]:enabled:active ~svg {
-        right: 173px;
+        right: 165px;
     }
     .intr {
         margin-top: 117px;
