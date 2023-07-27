@@ -47,3 +47,30 @@ function validateEmail() {
         sendBtn.disabled = true;
     }
 }
+// header animation
+
+function scrollDetect(){
+    var lastScroll = 0;
+  
+    window.onscroll = function() {
+        let currentScroll = document.documentElement.scrollTop || document.body.scrollTop,
+            header = document.querySelector(".header");
+  
+        if (currentScroll > 0 && lastScroll <= currentScroll) {
+            lastScroll = currentScroll;
+            header.style.top = `-${header.offsetHeight}px`;
+        } else if (currentScroll < 219){
+            lastScroll = currentScroll;
+            header.style.top = '0';
+            header.style.background = 'none';
+            header.style.backdropFilter = 'none';
+        } else {
+            lastScroll = currentScroll;
+            header.style.top = '0';
+            header.style.background = 'rgba(16, 16, 16, 0.20)';
+            header.style.backdropFilter = 'blur(5px)';
+        }
+    };
+}
+  
+scrollDetect();
