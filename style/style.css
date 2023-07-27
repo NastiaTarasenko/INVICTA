@@ -310,22 +310,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 180px;
+    min-height: 140px;
 }
 .hamburger-menu {
     cursor: pointer;
 }
 /* header responsive */
-@media(max-width: 1700px) {
-    .header-container {
-        min-height: 160px;
-    }
-}
-@media (max-width: 1440px) {
-    .header-container {
-        min-height: 140px;
-    }
-}
 @media (max-width: 1300px) {
     .header-container {
         min-height: 120px;
