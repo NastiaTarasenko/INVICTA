@@ -316,14 +316,14 @@ a {
     cursor: pointer;
 }
 /* header responsive */
-@media (max-width: 1440px) {
+@media(max-width: 1700px) {
     .header-container {
         min-height: 180px;
     }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
     .header-container {
-        min-height: 160px;
+        min-height: 150px;
     }
 }
 @media (max-width: 1140px) {
