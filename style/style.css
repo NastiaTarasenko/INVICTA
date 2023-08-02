@@ -328,9 +328,6 @@ a {
     }
 }
 @media (max-width: 980px) {
-    .header-container {
-        min-height: 120px;
-    }
     .header-logo {
         width: 120px;
     }
@@ -362,7 +359,7 @@ a {
 }
 @media (max-width: 500px) {
     .header-container {
-        min-height: 80px;
+        min-height: 85px;
     }
     .header-logo {
         width: 74px;
@@ -1457,6 +1454,8 @@ a {
     border: 1px solid #FCFCFC;
     width: fit-content;
     z-index: 1;
+    cursor: pointer;
+    transition: all ease-in-out 0.25s;
 }
 .meet-our-team-btn a {
     text-decoration: none;
