@@ -2491,6 +2491,9 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     input[type="submit"]:enabled:active ~svg {
         right: 67%;
     }
+    .intr {
+        text-align: center;
+    }
 }
 @media (max-width: 365px) {
     .send-message-wrapper svg {
