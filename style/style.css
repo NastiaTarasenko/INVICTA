@@ -950,6 +950,7 @@ a {
     line-height: 1.4em;
     text-transform: uppercase;
     font-weight: 400;
+    color: #FCFCFC;
 }
 .project-buttons {
     display: flex;
