@@ -1607,7 +1607,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 }
 @media (max-width: 470px) {
     .footer-text h2 {
-        letter-spacing: 1.50px;
+        letter-spacing: 1.51px;
     }
     .footer-paragraph {
         margin-top: 45px;
