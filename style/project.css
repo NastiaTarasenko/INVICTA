@@ -365,7 +365,6 @@ a {
 /* main section */
 .main-section {
     padding-top: 230px;
-    /* padding-bottom: 100px; */
 }
 .main-section-bg-image {
     position: relative;
@@ -754,5 +753,124 @@ a {
 @media(max-width: 353px) {
     .summary-section {
         padding-top: 85%;
+    }
+}
+/* solution section */
+.solution-section {
+    padding-top: 5.2%;
+    padding-bottom: 5.2%;
+}
+.container-solution {
+    display: flex;
+}
+.solution-info {
+    flex: 1 1 24.86%;
+}
+.solution-info-mobile {
+    display: none;
+}
+.solution-title {
+    margin-top: 5px;
+    margin-bottom: 75px;
+    font-family: Orbitron;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+}
+.solution-paragraph {
+    max-width: 77.78%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.pictures-wrapper {
+    flex: 1 1 75.14%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pictures-wrapper img {
+    max-width: 100%;
+}
+/* solution responsive */
+@media(max-width: 1610px) {
+    .solution-info {
+        flex: 1 1 30%;
+    }
+    .pictures-wrapper {
+        flex: 1 1 70%;
+    }
+}
+@media(max-width: 1345px) {
+    .solution-paragraph {
+        font-size: 21px;
+    }
+}
+@media(max-width: 1210px) {
+    .solution-paragraph {
+        font-size: 19px;
+        max-width: 83%;
+    }
+    .solution-title {
+        margin-bottom: 65px;
+        padding-right: 20px;
+    }
+    .solution-info {
+        flex: 1 1 38%;
+    }
+    .pictures-wrapper {
+        flex: 1 1 62%;
+    }
+}
+@media(max-width: 1000px) {
+    .solution-paragraph {
+        font-size: 17px;
+    }
+    .solution-title {
+        margin-bottom: 55px;
+    }
+}
+@media(max-width: 810px) {
+    .solution-paragraph {
+        font-size: 16px; 
+    }
+    .solution-title {
+        font-size: 34px;
+    }
+}
+@media(max-width: 760px) {
+    .solution-info-desktop {
+        display: none;
+    }
+    .solution-info-mobile {
+        display: block;
+    }
+    .solution-paragraph {
+        max-width: 100%;
+        margin-bottom: 12.79%;
+    }
+    .solution-title {
+        margin-top: 17.44%;
+        margin-bottom: 4.36%;
+    }
+}
+@media(max-width: 700px) {
+    .solution-title {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+    }
+}
+@media(max-width: 600px) {
+    .solution-title {
+        font-size: 25px; 
+        letter-spacing: 1px;
+    }
+}
+@media(max-width: 425px) {
+    .solution-title {
+        font-size: 20px; 
+        letter-spacing: 0.8px;
     }
 }
