@@ -133,7 +133,43 @@
                 </div>
             </section>
         </main>
-        <footer class="rooter"></footer>
+        <footer class="footer" id="footer">
+            <div class="footer__container container-footer">
+                <div class="footer-content">
+                    <div class="footer-text">
+                        <h2>Got a project in mind?</h2>
+                        <p class="footer-paragraph">If you have any questions or ideas about your project, please drop us and email or fill the form.</p>
+                        <p class="footer-mail">invicta.itco@gmail.com</p>
+                        <div class="footer-icons">
+                            <img src="images/main-page/upwork-icon.svg" alt="upwork-icon">
+                            <img src="images/main-page/behance-icon.svg" alt="behance-icon">
+                            <img src="images/main-page/linkedln-icon.svg" alt="linkedln-icon">
+                        </div>
+                    </div>
+                    <form class="form" method="POST" action="send_email.php">
+                        <div class="name-email-wrapper">
+                            <input type="text" id="name" name="name" required placeholder="Name">
+                            <div class="email-input-wrapper">
+                                <input type="email" id="email" name="email" required placeholder="Email" onfocusout="validateEmail()">
+                                <div class="email-input-image-wrapper">
+                                    <img src="images/main-page/error-icon.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="invalid-email-text">Invalid email format</div>
+                        <textarea id="message" name="message" required placeholder="Project details"></textarea>
+                        <div class="send-message-wrapper">
+                            <input class="form-send" type="submit" value="Send a message" id="submitButton" disabled>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none" class="send-message-arrow">
+                                <path d="M1.5 1L13.5 13M13.5 13V1M13.5 13H1.5" stroke-width="1.5" stroke-linejoin="round"/>
+                            </svg> 
+                        </div>
+                    </form>
+                </div>
+                <div class="d" *ngIf></div>
+                <p class="intr">© 2023 INVICTA</p>
+            </div>
+        </footer>
     </div>
     <script src="main.js"></script>
 </body>
