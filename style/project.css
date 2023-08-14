@@ -578,7 +578,7 @@ a {
 }
 @media(max-width: 400px) {
     [class*="__container"] {
-        max-width: 96%;
+        max-width: 97%;
         margin: 0 auto;
         padding: 0 10px;
     }
@@ -808,6 +808,9 @@ a {
     .solution-paragraph {
         font-size: 21px;
     }
+    .solution-title {
+        font-size: 45px;
+    }
 }
 @media(max-width: 1210px) {
     .solution-paragraph {
@@ -817,6 +820,7 @@ a {
     .solution-title {
         margin-bottom: 65px;
         padding-right: 20px;
+        font-size: 40px;
     }
     .solution-info {
         flex: 1 1 38%;
@@ -844,6 +848,7 @@ a {
 @media(max-width: 760px) {
     .solution-section {
         padding-top: 6.67%;
+        padding-bottom: 21.33%;
     }
     .solution-info-desktop {
         display: none;
@@ -876,5 +881,123 @@ a {
     .solution-title {
         font-size: 20px; 
         letter-spacing: 0.8px;
+    }
+}
+/* next project section*/
+.next-project-section {
+    padding-top: 5.2%;
+    padding-bottom: 7.29%;
+}
+.next-project-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.next-project-wrapper {
+    display: flex;
+    align-items: center;
+}
+.next-project, .tesla {
+    font-family: Orbitron;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+}
+.next-project-arrow {
+    margin-left: 35px;
+    width: 18px;
+    height: 35px;
+}
+.tesla {
+    color: #89CEEB;
+}
+.next-project-image {
+    margin-top: 3.76%;
+    width: 100%;
+}
+@media(max-width: 1530px) {
+    .next-project-arrow {
+        margin-left: 30px;
+    }
+}
+@media(max-width: 1345px) {
+    .next-project, .tesla {
+        font-size: 45px;
+    }
+}
+@media(max-width: 1210px) {
+    .next-project, .tesla {
+        font-size: 40px;
+    }
+    .next-project-arrow {
+        width: 16px;
+        height: 30px;
+        margin-left: 25px;
+    }
+}
+@media(max-width: 810px) {
+    .next-project, .tesla {
+        font-size: 34px;
+    }
+    .next-project-arrow {
+        width: 13px;
+        margin-left: 20px;
+    }
+    .next-project-image {
+        margin-top: 4%;
+    }
+}
+@media(max-width: 760px) {
+    .next-project-section {
+        padding-top: 6.67%;
+    }
+    .next-project-image {
+        margin-top: 4.5%;
+    }
+}
+@media(max-width: 700px) {
+    .next-project, .tesla {
+        font-size: 30px;
+    }
+    .next-project-arrow {
+        width: 12px;
+        margin-left: 15px;
+    }
+}
+@media(max-width: 600px) {
+    .next-project-section {
+        padding-bottom: 15%;
+    }
+    .next-project, .tesla {
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .next-project-arrow {
+        width: 11px;
+    }
+    .next-project-image {
+        margin-top: 5.22%;
+    }
+}
+@media(max-width: 550px) {
+    .next-project-section {
+        padding-top: 18.67%;
+        padding-bottom: 21.33%;
+    }
+}
+@media(max-width: 480px) {
+    .next-project, .tesla {
+        font-size: 20px;
+        letter-spacing: 0.8px;
+    }
+    .next-project-arrow {
+        width: 8px;
+        margin-left: 11px;
+    }
+}
+@media(max-width: 350px) {
+    .tesla {
+        display: none;
     }
 }
