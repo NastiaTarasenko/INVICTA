@@ -1031,9 +1031,12 @@ a {
     margin-top: 51px;
 }
 .footer-icons {
-    margin-top: 180px;
+    margin-top: 150px;
     display: flex;
     gap: 64px;
+}
+.footer-icons-mobile {
+    display: none;
 }
 .footer-icons img {
     width: 35px;
@@ -1508,8 +1511,16 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     .footer-mail {
         margin-top: 40px;
     }
-    .footer-icons {
+    .footer-icons-desktop {
         display: none;
+    }
+    .footer-icons-mobile {
+        display: flex;
+    }
+    .footer-icons {
+        margin: 0 auto;
+        width: fit-content;
+        margin-top: 8.24%;
     }
     input[type="text"] {
         width: 49%;
@@ -1529,6 +1540,9 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         padding: 18px 27px;
         font-size: 14px;
         border-radius: 8px;
+    }
+    .intr {
+        margin-top: 16.76%;
     }
 }
 @media (max-width: 711px) {
@@ -1562,6 +1576,9 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         width: 8px;
         height: 8px;
         top: 16px;
+    }
+    .footer-icons {
+        gap: 40px;
     }
     .intr {
         font-size: 12px;
@@ -1629,6 +1646,13 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     textarea {
         margin-top: 8px;
         height: 138px;
+    }
+    .footer-icons {
+        gap: 32px;
+    }
+    .footer-icons img {
+        width: 20px;
+        height: 20px;
     }
 }
 @media (max-width: 410px) {
