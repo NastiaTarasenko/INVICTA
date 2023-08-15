@@ -1852,7 +1852,7 @@ a {
     margin-top: 51px;
 }
 .footer-icons {
-    margin-top: 180px;
+    margin-top: 150px;
     display: flex;
     gap: 64px;
 }
@@ -1997,6 +1997,9 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     .footer-text h2 {
         font-size: 72px;
     }
+    .footer-icons {
+        margin-top: 165px;
+    }
 }
 @media (max-width: 1575px) {
     .footer {
@@ -2042,7 +2045,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         right: 214px;
     }
     .footer-icons {
-        margin-top: 170px;
+        margin-top: 135px;
         gap: 60px;
     }
     .footer-icons img {
@@ -2056,6 +2059,9 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
     .footer-text h2 {
         font-size: 64px;
+    }
+    .footer-icons {
+        margin-top: 145px
     }
 }
 @media (max-width: 1432px) {
@@ -2072,7 +2078,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         margin-top: 48px;
     }
     .footer-icons {
-        margin-top: 160px;
+        margin-top: 127px;
     }
     input, textarea {
         padding: 22px 26px;
@@ -2130,7 +2136,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         margin-top: 43px;
     }
     .footer-icons {
-        margin-top: 150px;
+        margin-top: 153px;
     }
     .intr {
         margin-top: 120px;
@@ -2148,6 +2154,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         font-size: 20px;
     }
     .footer-icons {
+        margin-top: 165px;
         gap: 50px;
     }
     .invalid-email-text {
@@ -2191,7 +2198,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
     .footer-icons {
         gap: 45px;
-        margin-top: 125px;
+        margin-top: 132px;
     }
     .footer-icons img {
         width: 25px;
@@ -2259,7 +2266,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
         margin-top: 32px;
     }
     .footer-icons {
-        margin-top: 100px;
+        margin-top: 110px;
     }
     input, textarea {
         padding: 15px 22px;
@@ -2310,6 +2317,9 @@ input:-webkit-autofill, textarea:-webkit-autofill {
     }
     .footer-paragraph {
         max-width: 300px;
+    }
+    .footer-icons {
+        margin-top: 118px;
     }
 }
 @media (max-width: 770px) {
